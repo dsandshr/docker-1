@@ -1,0 +1,14 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    28                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dsandshr <dsandshr@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/22 20:25:25 by dsandshr          #+#    #+#              #
+#    Updated: 2019/09/22 20:58:27 by dsandshr         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+	# Все тоже самое как с командой инженеров
+		docker service create -d --network overmind --name marines --replicas 2 -e OC_USERNAME=dsandshr -e OC_PASSWD=123 42school/marine-squad
