@@ -6,10 +6,9 @@
 #    By: dsandshr <dsandshr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/22 20:14:37 by dsandshr          #+#    #+#              #
-#    Updated: 2019/09/23 19:11:55 by dsandshr         ###   ########.fr        #
+#    Updated: 2020/11/16 13:14:42 by dsandshr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 	# повторение задачки ранее, только в сложненном варианте
-	# двойное открывание логов, ееееее
 		docker service logs -f $(docker service ps engineering-bay -f "name=engineering-bay.1" -q)
